@@ -1,0 +1,42 @@
+:root {
+    --color-blue: #1e3a8a;
+    --color-blue-light: #3b82f6;
+    --color-blue-dark: #1e40af;
+}
+
+body {
+    background-color: white;
+    color: #1a202c; /* Tailwind gray-900 */
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.text-gray-900 {
+    color: #1a202c; /* Tailwind gray-900 */
+}
+
+.bg-blue-600 {
+    background-color: var(--color-blue);
+}
+
+.text-blue-600 {
+    color: var(--color-blue);
+}
+
+.bg-gray-900 {
+    background-color: #1a202c;
+}
+
+.text-gray-600 {
+    color: #718096; /* Tailwind gray-600 */
+}
+
+#img {
+    height: calc(85vh - 2rem);
+    background-image: url(online.jpg);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Marca</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body class="bg-blue-50 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-50 shadow-md p-4 flex justify-between items-center">
+        <div class="flex justify-center items-center">
+            <img src="MENU.png" alt="1" class="w-14 h-14 rounded-xl"><h1 class="p-2 font-extrabold text-blue-800">MENU</h1>
+        </div>
+        <div class="space-x-4">
+            <a href="#ecommerce" class="text-gray-500 hover:text-blue-600">E-commerce</a>
+            <a href="#programming" class="text-gray-500 hover:text-blue-600">Programación</a>
+            <a href="#cybersecurity" class="text-gray-500 hover:text-blue-600">Ciberseguridad</a>
+            <a href="#marketing" class="text-gray-500 hover:text-blue-600">Marketing Digital</a>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="bg-[#0c2269] text-white text-center py-20">
+        <div class="container mx-auto">
+            <h1 class="text-5xl font-bold">Soluciones Integrales para tu Negocio</h1>
+            <p class="mt-4 text-lg">Usted nos da la idea y nosotros la convertiremos en realidad. 
+                <br>¿Estas listo para dar el siguinte paso en tu emprendimiento?</p>
+            <a href="#services" class="mt-8 inline-block bg-white text-blue-600 px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition">Descubre más</a>
+        </div>
+    </section>
+
+<section>
+    <div>
+       <div>
+        <div class="flex justify-center p-6 items-center" id="img"> 
+            <div class="bg-[#00192E]/90 md:w-2/3 rounded-xl p-4 flex justify-center">
+                <div class="text-center p-2 text-slate-100 flex justify-center items-center flex-col">
+                    <h1 class="md:text-4xl text-xl font-bold">¿Quienes somos?</h1>
+                    <p class="p-4 md:text-base">Somos una empresa dedicada a potenciar tu presencia digital y hacer que tu página web o emprendimiento se destaque en el mundo en línea. Con un equipo altamente capacitado y experimentado, nos comprometemos a brindar soluciones integrales y personalizadas para satisfacer tus necesidades.
+                       <br> Nuestro objetivo es hacer que tu página web o emprendimiento no solo se vea, sino que también se convierta en un referente en su sector. Con nuestros servicios, puedes estar seguro de que tu negocio estará en buenas manos.
+                    </p>
+                    
+                </div>
+           </div>
+       </div>
+    </div>
+</section>
+
+    <!-- Services Section -->
+    <section id="services" class="container mx-auto py-16">
+        <p class="p-4 font-thin text-gray-500 text-sm">En nuestra empresa, nos encargamos de todo lo que tu negocio necesita para triunfar en el entorno digital.
+            <br> Ofrecemos una amplia gama de servicios, incluyendo:</p>
+        <div class="flex flex-wrap justify-center gap-10 text-center">
+            <div id="ecommerce" class="w-64">
+                <img src="ecommerce.svg" alt="E-commerce" class="mx-auto mb-4 size-40">
+                <h2 class="text-3xl font-bold text-blue-800">E-commerce</h2>
+                <p class="mt-4 text-gray-500">Creamos tiendas en línea optimizadas y adaptadas a tus necesidades.</p>
+            </div>
+            <div id="programming" class="w-64">
+                <img src="programming.svg" alt="Programación" class="mx-auto mb-4 size-40">
+                <h2 class="text-3xl font-bold text-blue-800">Programación</h2>
+                <p class="mt-4 text-gray-500">Desarrollamos aplicaciones personalizadas con las últimas tecnologías.</p>
+            </div>
+            <div id="cybersecurity" class="w-64">
+                <img src="cybersecurity.svg" alt="Ciberseguridad" class="mx-auto mb-4 size-40">
+                <h2 class="text-3xl font-bold text-blue-800">Ciberseguridad</h2>
+                <p class="mt-4 text-gray-500">Protegemos tu negocio de amenazas digitales con soluciones avanzadas.</p>
+            </div>
+            <div id="marketing" class="w-64">
+                <img src="marketing.svg" alt="Marketing Digital" class="mx-auto mb-4 size-40">
+                <h2 class="text-3xl font-bold text-blue-800">Marketing Digital</h2>
+                <p class="mt-4 text-gray-500">Potenciamos tu presencia en línea con estrategias efectivas de marketing.</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- POSIBILITIES -->
+   <section class="bg-[#0c2269] h-full">
+    <div class="flex justify-center items-center space-x-8">
+        <div class="w-1/2 h-1/2">
+            <img src="AI.jpg" alt="4">
+        </div>
+        <div class="text-white">
+            <h2 class="text-3xl font-bold">Explora las Posibilidades</h2>
+            <p class="mt-4">En nuestra empresa, transformamos tus ideas en realidad con soluciones tecnológicas avanzadas. Desde el desarrollo de aplicaciones hasta estrategias de marketing digital, estamos aquí para hacer que tu negocio crezca y prospere.</p>
+        </div>
+    </div>
+</section>
+    <!-- OPORTUNITY -->
+    <section class="bg-blue-50 h-full">
+        <div class="flex justify-center items-center space-x-8">
+            <div class="text-blue-800 p-4">
+                <h2 class="text-3xl font-bold">Aprovecha la Oportunidad</h2>
+                <p class="mt-4">Nuestro equipo de expertos está listo para ayudarte a identificar y aprovechar nuevas oportunidades en el mercado digital. 
+                    <br>Con nuestro apoyo, tu negocio podrá alcanzar nuevas alturas.</p>
+            </div>
+            <div class="w-1/2 h-1/2">
+                <img src="PC.jpg" alt="4">
+            </div>
+        </div>
+    </section>
+
+<!-- CONTACTO -->
+<section id="textos" class="bg-[#00192E]">
+    <div class="p-6">
+        <h2 class="text-center text-white text-lg">¡Contactanos!</h2>
+    <div class="flex justify-center text-blue-100 space-x-12 p-6">
+        <div id="shadow1" class="border border-white p-4 w-2/6 flex items-center justify-center rounded-xl">
+            <div class="rounded-full w-14 flex items-center h-14 p-4 bg-[#1a389c]">
+                <img src="telefono.png" alt="1">
+            </div>
+        <div class="flex flex-col">
+            <h2 class="p-2 text-xl font-semibold">Telefonos</h2>
+            <p>+58 0212 555 55 55 / +58 0424 182 12 34</p>
+            </div>
+         </div>
+        
+        <div id="shadow2" class="border border-white  p-4 w-2/6 flex items-center justify-center rounded-xl">
+            <div class="rounded-full w-14 flex items-center h-14 p-4 bg-[#1a389c]">
+                <img src="email.png" alt="1">
+            </div>
+            <div class="flex flex-col">
+               <h2 class="p-2 text-xl font-semibold">Correos electronicos</h2>
+               <p>ventas@sunegocio.com / info@sunegocio.com</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+ </section>
+
+<!-- SECCION MAPA -->
+<section id="map-section" class="p-6 bg-[#00192E]">
+<div class="flex justify-center items-start space-x-6">
+    <div id="map" class="w-1/2 h-96"></div>
+    <div class="w-1/2 flex flex-col space-y-4">
+        <input type="text" placeholder="Nombre" class="p-2 border border-[#0c2168] rounded bg-[#00192E]">
+        <input type="email" placeholder="Correo electrónico" class="p-2 border border-[#0c2168] rounded bg-[#00192E]">
+        <input type="tel" placeholder="Teléfono" class="p-2 border border-[#0c2168]  rounded bg-[#00192E]">
+        <input type="text" placeholder="Asunto" class="p-2 border border-[#0c2168] rounded bg-[#00192E]">
+        <textarea placeholder="Mensaje" class="p-2 border border-[#0c2168]  rounded h-24 bg-[#00192E]"></textarea>
+        <button class="bg-[#051650] text-white p-2 rounded">Enviar</button>
+    </div>
+</div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-6">
+        <p class="mb-4">&copy; 2024 MENU. Todos los derechos reservados.</p>
+        <div class="flex justify-center space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition">Facebook</a>
+            <a href="#" class="text-gray-400 hover:text-white transition">Twitter</a>
+            <a href="#" class="text-gray-400 hover:text-white transition">LinkedIn</a>
+            <a href="#" class="text-gray-400 hover:text-white transition">Instagram</a>
+        </div>
+    </footer>
+<script src="index.js"></script>
+</body>
+</html>
